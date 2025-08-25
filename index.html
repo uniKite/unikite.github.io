@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>汇鸢简报</title>
+    <style>
+        * {margin: 0;padding: 0;box-sizing: border-box;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+        body {display: flex;justify-content: center;align-items: center;min-height: 100vh;background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);padding: 20px;}
+        .container {background-color: white;border-radius: 16px;box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);padding: 40px;max-width: 600px;width: 100%;text-align: center;transition: transform 0.3s ease;}
+        .container:hover {transform: translateY(-5px);}
+        h1 {color: #2c3e50;font-size: 2.5rem;margin-bottom: 20px;font-weight: 700;}
+        p {color: #546e7a;font-size: 1.2rem;line-height: 1.6;margin-bottom: 30px;}
+        .button {display: inline-block;background-color: #1976d2;color: white;padding: 16px 40px;font-size: 1.2rem;font-weight: 600;text-decoration: none;border-radius: 50px;transition: all 0.3s ease;box-shadow: 0 4px 12px rgba(25, 118, 210, 0.3);}
+        .button:hover {background-color: #1565c0;transform: translateY(-2px);box-shadow: 0 6px 16px rgba(25, 118, 210, 0.4);}
+        .button:active {transform: translateY(0);}
+        @media (max-width: 600px) {
+            .container {padding: 30px 20px;}
+            h1 {font-size: 2rem;}
+            p {font-size: 1rem;}
+            .button {padding: 14px 30px;font-size: 1rem;}
+        }
+    </style>
+</head>
+
+
+
+
+
+<body>
+    <div class="container">
+        <h1>汇鸢简报导航页</h1>
+        <p>从2025年8月20日开始，汇鸢简报采用本地服务器实时更新内容，而不是将内容提交到 GitHub 。因设备原因，服务器很可能不会24小时开启，但通常在白天的大多数时间可用。请点击下面的按钮试图连接服务器：</p>
+        <a href="https://www.u2835758.nyat.app:17008/" class="button">连接服务器</a>
+    </div>
+</body>
+
+</html>
